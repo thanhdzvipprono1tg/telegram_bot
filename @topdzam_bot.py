@@ -111,7 +111,7 @@ insult_dict = {
     "help": "con cặk, tao không phải mẹ mày mà phải hướng dẫn tận nơi đâu! Đây này, nhìn cho kỹ:",
     "sendphoto": "Mày lười đến mức không tự chụp ảnh nổi à? Đây, tao gửi hộ mày con loz!",
     "sendmsg": "Đây là tin nhắn từ tao! Nhắn cái loz gì suốt ngày thế😾😾😾?",
-    "systeminfo": "trong lúc đợi kết quả, có lẽ bạn cũng nên cả bộ não của mình nhé! 😍😍😍",
+    "systeminfo": "trong lúc đợi kết quả, có lẽ bạn cũng nên cả kiểm tra lại bộ não của mình nhé! 😍😍😍",
     "webcam": "Xinh đẹp bằng ai mà cứ thích chụp 😩",
     "screenshot": "chụp cho đã bị leak ra thì ăn l nhé",
     "lock": "Khóa máy hả? Cút mẹ mày đi nhé 😾",
