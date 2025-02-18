@@ -15,16 +15,6 @@ AUTHORIZED_USERS = [1701124116]
 def is_authorized(message):
     return message.from_user.id in AUTHORIZED_USERS
 
-insult_dict = {
-    "hello": "Xin chào cái con mẹ mày! Mày rảnh quá hả mà bắt tao chào?",
-    "help": "con cặk, tao không phải mẹ mày mà phải hướng dẫn tận nơi đâu! Đây này, nhìn cho kỹ:",
-    "sendphoto": "Mày lười đến mức không tự chụp ảnh nổi à? Đây, tao gửi hộ mày con loz!",
-    "sendmsg": "Đây là tin nhắn từ tao! Nhắn cái loz gì suốt ngày thế😾😾😾?",
-    "systeminfo": "trong lúc đợi kết quả, có lẽ bạn cũng nên cả bộ não của mình nhé! 😍😍😍",
-    "webcam": "Xinh đẹp bằng ai mà cứ thích chụp 😩",
-    "screenshot": "chụp cho đã bị leak ra thì ăn l nhé",
-    "lock": "Khóa máy hả? Cút mẹ mày đi nhé 😾",
-}
 @bot.message_handler(commands=['start'])
 def greet(message):
     username = message.from_user.first_name
@@ -116,5 +106,15 @@ def lock_pc(message):
     else:
         bot.reply_to(message, "Mày đéo có quyền khóa máy đâu, ML 😾!")
 
-# Chạy bot
+insult_dict = {
+    "hello": "Xin chào cái con mẹ mày! Mày rảnh quá hả mà bắt tao chào?",
+    "help": "con cặk, tao không phải mẹ mày mà phải hướng dẫn tận nơi đâu! Đây này, nhìn cho kỹ:",
+    "sendphoto": "Mày lười đến mức không tự chụp ảnh nổi à? Đây, tao gửi hộ mày con loz!",
+    "sendmsg": "Đây là tin nhắn từ tao! Nhắn cái loz gì suốt ngày thế😾😾😾?",
+    "systeminfo": "trong lúc đợi kết quả, có lẽ bạn cũng nên cả bộ não của mình nhé! 😍😍😍",
+    "webcam": "Xinh đẹp bằng ai mà cứ thích chụp 😩",
+    "screenshot": "chụp cho đã bị leak ra thì ăn l nhé",
+    "lock": "Khóa máy hả? Cút mẹ mày đi nhé 😾",
+}
+
 bot.polling()
